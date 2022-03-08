@@ -40,7 +40,8 @@ def main(input_file, output_file):
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        print(f'USAGE: {sys.argv[0]} <input.vtt> <output.srt>')
+        print(f'vtt2srt.py - Convert .vtt subtitles to .srt format\n')
+        print(f'USAGE:       {sys.argv[0]} <input.vtt> <output.srt>')
     else:
         main(sys.argv[1], sys.argv[2])
         print('Done.')

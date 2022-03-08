@@ -6,7 +6,7 @@ Python 3.6+
 
 ## USAGE:
 
-`python3 vtt2srt <input.vtt> <output.srt>`
+`python3 vtt2srt.py <input.vtt> <output.srt>`
 
 ### USAGE IN YOUR OWN PROJECTS
 
